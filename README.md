@@ -393,7 +393,7 @@ Registre também saídas do `systemctl status` para cada serviço.
 
 ## 8. Estrutura do repositório Git (README)
 
-Estrutura sugerida:
+Estrutura:
 
 ```
 conectaciencia-project/
@@ -433,7 +433,7 @@ Resumo do que foi implementado, dificuldades encontradas e recomendações para 
 
 ---
 
-## 10. Anexos — Arquivos de configuração prontos (copiar para os caminhos indicados)
+## 10. Anexos — Arquivos de configuração
 
 ### `/etc/dhcp/dhcpd.conf`
 
@@ -535,7 +535,7 @@ pasv_max_port=40100
 
 ---
 
-## Scripts sugeridos (scripts/setup_server.sh)
+## Scripts (scripts/setup_server.sh)
 
 ```bash
 #!/bin/bash
@@ -549,20 +549,4 @@ sudo systemctl restart isc-dhcp-server bind9 apache2 vsftpd nfs-kernel-server
 
 ---
 
-## Como eu entrego os artefatos para você
 
-1. Este documento será transformado em PDF para entrega final.
-2. Configure um repositório Git e envie os arquivos de configuração e scripts.
-3. Tire prints dos testes e coloque em `/docs` no repositório.
-
----
-
-## Próximos passos que eu posso executar para você (me diga o que prefere):
-
-* Gerar o PDF pronto (eu já organizei o conteúdo).
-* Gerar os arquivos de configuração separados e um `setup_server.sh` (prontos para download).
-* Gerar um README.md completo e um modelo de repositório ZIP com tudo.
-
----
-
-*Fim do documento.*
