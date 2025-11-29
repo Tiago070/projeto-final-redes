@@ -1,12 +1,16 @@
 # Projeto Final de Administração de Redes de Computadores — ConectaCiência
 
 **Aluno:** Tiago Cardoso Ferreira
+
 **Projeto (Entrega):** Etapa 01 e Etapa 02
+
 **Servidor Linux escolhido:** Ubuntu Server 22.04
+
 **Rede escolhida:** 192.168.100.0/24 (Host-only)
+
 **Nome de domínio interno:** `tiago.local`
+
 **Topologia:** 1 servidor + 1 cliente (VMs)
-**Formato de entrega solicitado:** PDF
 
 ---
 
