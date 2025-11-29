@@ -1,0 +1,13 @@
+$TTL 604800
+@   IN  SOA ns.tiago.local. admin.tiago.local. (
+        20251124
+        604800
+        86400
+        2419200
+        604800 )
+
+@       IN  NS      ns.tiago.local.
+ns      IN  A       192.168.100.10
+
+@       IN  A       192.168.100.10
+servidor IN A       192.168.100.10
